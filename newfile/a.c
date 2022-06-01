@@ -1,4 +1,6 @@
-#include <iostream>
+#include <stdio.h>
+
+#define BUFSIZE 4096
 
 int fun_add(int a, int b)
 {
@@ -13,6 +15,6 @@ int main()
     int c=0;
     printf("hello world!\r\n");
     c = fun_add(a,b);
-    printf("c=%d\n",c);
+    printf("c=%d.\n",c);
     return 0;
 }
